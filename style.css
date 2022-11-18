@@ -1,0 +1,10 @@
+/*Reset stylesheet
+		-HTML5 Doctor*/
+div h2{
+	color: green;
+	text-align: left;
+	margin-left:2px ;
+/*my code
+ 	Classes and IDs are very important in grouping elements for styling.
+ 	more importantly, IDs help in links, that is they can serve as a reference point for a link.*/
+}

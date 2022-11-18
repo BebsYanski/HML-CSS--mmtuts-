@@ -1,0 +1,23 @@
+@font-face {
+	src:  url(fonts/font_name);
+	font-family: name;
+}
+
+h1{
+	font-family: "Times new Roman",Arial;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	color: rgba(77, 0, 255,0.5);
+	line-height: 4px;
+}
+a{
+	text-decoration: none;
+}
+p{
+	text-indent: 30px;
+	line-height: 30px;
+}

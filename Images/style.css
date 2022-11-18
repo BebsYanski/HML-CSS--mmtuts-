@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.img-eye{
+	width: 300px;
+	height: 200px;
+	background-image: url(images/10.jpg);	
+	background-size: contain;/* Cover is better and more preferable when doing banners.*/
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.img-eye:hover{
+	background-image: url(images/30.jpg);
+}

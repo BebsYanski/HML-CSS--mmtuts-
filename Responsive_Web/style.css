@@ -1,0 +1,98 @@
+/* For responsive websites, it is advisable that wwe focus on cellphones first, then tablets, laptops and lastly, desktops.*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.img-banner{
+	display: none;
+}
+
+.img-info{
+	width: 100%;
+}
+
+.img-info h2{
+	padding: 30px 30px 20px;
+	font-family: arial;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+
+.img-info p{
+	padding: 0px 30px 20px;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.img-me{
+	width: 100%;
+}
+
+/* Now we work on tablet structure.
+	We run the code below only if we have the screen and the min width of the screen is 768px.
+	We include just the code we wish to change.*/
+@media only screen and (min-width: 768px){
+	.img-banner{
+	display: block;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.wrapper{
+	width: 600px;
+	margin: 0 auto;
+}
+
+
+.img-info h2{
+	padding: 20px 0px 0px;
+}
+
+.img-info p{
+	padding: 20px 0px 0px;
+}
+
+.img-me{
+	padding-top: 30px;
+}
+
+}
+
+
+/* Now we work on Laptop/desktop structure.
+	We run the code below only if we have the screen and the min width of the screen is 768px.
+	We include just the code we wish to change.*/
+@media only screen and (min-width: 1000px){
+
+	.wrapper{
+		width: 1000px;
+	}
+
+	.img-info{
+		width: 50%;
+		float: right;
+	}
+
+	.img-info h2{
+	padding: 20px 0px 0px 30px;/*top right bottom left*/
+}
+
+.img-info p{
+	padding: 20px 0px 0px 30px;
+}
+
+	.img-me{
+		padding-top: 0px;
+		width: 50%;
+		float: left;
+	}
+}
