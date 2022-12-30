@@ -1,0 +1,29 @@
+body {
+  font-family:'Courier New', Courier, monospace
+}
+
+h1 {
+   /* display: flex;  */
+  text-align: center;
+  color: forestgreen;
+  margin: 30px 0 50px;
+}
+
+.gallery {
+  /* display: flex;
+  flex-flow: row wrap; */
+  margin: 10px 50px;
+}
+
+.gallery img{
+  width: 230px;
+  height: 230px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.gallery img:hover{
+  /* width: 250px; */
+  filter: grayscale(0);
+  transform: scale(1.1);
+}

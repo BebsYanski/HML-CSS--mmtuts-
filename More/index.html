@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jquery.lightbox.css">
+  <script type="text/javascript" src="jquery.lightbox.min.js"></script>
+  <title>Image Gallery Design</title>
+</head>
+<body>
+  <h1>Image Gallery Design</h1>
+
+  <div class="gallery">
+    <a href="../Images/images/1.jpg" title="Use the flexibility of jQuery and create a group of images as desired. $('#gallery').lightBox();" rel="lightbox[gallery1]"><img src="../Images/images/1.jpg" alt="1st image"></a>
+    <a href="../Images/images/2.jpg"><img src="../Images/images/2.jpg" alt="1st image"></a>
+    <a href="../Images/images/3.jpg"><img src="../Images/images/3.jpg" alt="1st image"></a>
+    <a href="../Images/images/4.jpg"><img src="../Images/images/4.jpg" alt="1st image"></a>
+    <a href="../Images/images/5.jpg"><img src="../Images/images/5.jpg" alt="1st image"></a>
+    <a href="../Images/images/6.jpg"><img src="../Images/images/6.jpg" alt="1st image"></a>
+    <a href="../Images/images/7.jpg"><img src="../Images/images/7.jpg" alt="1st image"></a>
+    <a href="../Images/images/8.jpg"><img src="../Images/images/8.jpg" alt="1st image"></a>
+    <a href="../Images/images/9.jpg"><img src="../Images/images/9.jpg" alt="1st image"></a>
+    <a href="../Images/images/10.jpg"><img src="../Images/images/10.jpg" alt="1st image"></a>
+   
+  </div>
+
+  <script type="text/javascript">
+    $(function() {
+      // When DOM is ready, attach the lightBox to the proper elements
+    
+      // Left column
+      $('.galleries-set1 .gallery a').lightBox();
+    
+      // Right column
+      $('#gallery4 a').lightBox();
+      $('#gallery5 a').lightBox();
+      $('#gallery6 a').lightBox();
+    });
+    </script>
+</body>
+</html>
