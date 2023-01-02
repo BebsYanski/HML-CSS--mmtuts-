@@ -5,8 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="jquery.lightbox.css">
-  <script type="text/javascript" src="jquery.lightbox.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css" media="screen" />  <script type="text/javascript" src="jquery.lightbox.min.js"></script>
   <title>Image Gallery Design</title>
 </head>
 <body>
@@ -26,18 +25,20 @@
    
   </div>
 
-  <script type="text/javascript">
-    $(function() {
-      // When DOM is ready, attach the lightBox to the proper elements
-    
-      // Left column
-      $('.galleries-set1 .gallery a').lightBox();
-    
-      // Right column
-      $('#gallery4 a').lightBox();
-      $('#gallery5 a').lightBox();
-      $('#gallery6 a').lightBox();
-    });
-    </script>
+  <script type="text/javascript" src="js/jquery.lightbox.min.js"></script>
+<!-- Activate the jQuery lightBox plugin -->
+<script type="text/javascript">
+$(function() {
+	// When DOM is ready, attach the lightBox to the proper elements
+
+	// Left column
+	$('.galleries-set1 .gallery a').lightBox();
+
+	// Right column
+	$('#gallery4 a').lightBox();
+	$('#gallery5 a').lightBox();
+	$('#gallery6 a').lightBox();
+});
+</script>
 </body>
 </html>
