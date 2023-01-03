@@ -1,0 +1,35 @@
+div{
+  width: 250px;
+  height: 250px;
+  background: turquoise;
+  display: inline-block;
+  margin: 30px 50px;
+  line-height: 250px;
+  border:solid orange 10px ;
+}
+
+.box-1{
+  border-radius: 10px;
+}
+.box-2{
+  border-radius: 100px;
+}
+.box-3{
+  border-radius: 250px;
+}
+.box-4{
+  /* border-radius: top, right, bottom, left */
+  border-radius: 40px 0px 40px 0px;
+}
+.box-5{
+  border-radius: 250px 0 0 0;
+}
+.box-6{
+  border-radius: 25%;
+}
+.box-7{
+  border-radius: 250px 0 250px 0;
+}
+.box-8{
+  border-radius: 250px 250px 0 0;
+}
