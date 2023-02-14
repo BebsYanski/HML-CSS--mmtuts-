@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social-icons-box{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 150px;
+}
+.social-icons-box h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff5700;
+}
+.social-icons-list{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+.social-icons-list ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.social-icons-list ul li{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  /* background: #f00; */
+  border-radius: 100%;
+  margin: 0 10px;
+}
+.social-icons-list ul li a{
+ display: block;
+ color: #fff;
+ font-size: 50px;
+}
+.social-icons-list ul li a i{
+line-height: 100px;
+}
+.social-icons-list ul li:nth-child(1){
+background: #3b5999;
+line-height: 100px;
+}
+.social-icons-list ul li:nth-child(2){
+background: #55acee;
+}
+.social-icons-list ul li:nth-child(3){
+background: #e4405f;
+}
+.social-icons-list ul li:nth-child(4){
+background: #cd201f;
+}
+.social-icons-list ul li:nth-child(5){
+background: #af0606;
+}
+.social-icons-list ul li:hover{
+background: #ff5700;
+border-radius: 0;
+}
